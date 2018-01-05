@@ -1,2 +1,2 @@
 # EchotagSDK_iOS
-echotag sdk and demo app for iOS
+Echotag Client SDK for iOS
