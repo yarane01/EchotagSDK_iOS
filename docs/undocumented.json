@@ -1,0 +1,460 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETACRCloudManager.h",
+      "line": 18,
+      "symbol": "ETACRCloudManager.completionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETCategory.h",
+      "line": 12,
+      "symbol": "ETCategory",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETCategory.h",
+      "line": 14,
+      "symbol": "ETCategory.categoryId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETCategory.h",
+      "line": 15,
+      "symbol": "ETCategory.title",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETCity.h",
+      "line": 12,
+      "symbol": "ETCity",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETCity.h",
+      "line": 14,
+      "symbol": "ETCity.cityId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETCity.h",
+      "line": 15,
+      "symbol": "ETCity.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 13,
+      "symbol": "ETEchotag",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 15,
+      "symbol": "ETEchotag.echotagId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 16,
+      "symbol": "ETEchotag.payloadId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 17,
+      "symbol": "ETEchotag.echotagType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 18,
+      "symbol": "ETEchotag.countSubitems",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 19,
+      "symbol": "ETEchotag.owner",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 20,
+      "symbol": "ETEchotag.siteURL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 21,
+      "symbol": "ETEchotag.shareURL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 22,
+      "symbol": "ETEchotag.item",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 23,
+      "symbol": "ETEchotag.subItems",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 24,
+      "symbol": "ETEchotag.categories",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETEchotag.h",
+      "line": 25,
+      "symbol": "ETEchotag.categoryTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETGenre.h",
+      "line": 12,
+      "symbol": "ETGenre",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETGenre.h",
+      "line": 14,
+      "symbol": "ETGenre.genreId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETGenre.h",
+      "line": 15,
+      "symbol": "ETGenre.title",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 12,
+      "symbol": "ETItem",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 14,
+      "symbol": "ETItem.company",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 15,
+      "symbol": "ETItem.title",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 16,
+      "symbol": "ETItem.desc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 17,
+      "symbol": "ETItem.imageURL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 18,
+      "symbol": "ETItem.phoneNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 19,
+      "symbol": "ETItem.email",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 20,
+      "symbol": "ETItem.address",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 21,
+      "symbol": "ETItem.question",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 22,
+      "symbol": "ETItem.answer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETItem.h",
+      "line": 23,
+      "symbol": "ETItem.afterAnswer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 12,
+      "symbol": "ETMusic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 14,
+      "symbol": "ETMusic.musicId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 15,
+      "symbol": "ETMusic.data",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 16,
+      "symbol": "ETMusic.like",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 18,
+      "symbol": "ETMusic.acrId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 19,
+      "symbol": "ETMusic.title",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 20,
+      "symbol": "ETMusic.album",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 21,
+      "symbol": "ETMusic.artist",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 22,
+      "symbol": "ETMusic.youtubeId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 23,
+      "symbol": "ETMusic.releaseDate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 24,
+      "symbol": "ETMusic.genres",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 25,
+      "symbol": "ETMusic.artworkUrl",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 26,
+      "symbol": "ETMusic.itunesTrackId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETMusic.h",
+      "line": 27,
+      "symbol": "ETMusic.itunesAlbumId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 13,
+      "symbol": "ETStream",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 15,
+      "symbol": "ETStream.streamId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 16,
+      "symbol": "ETStream.company",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 17,
+      "symbol": "ETStream.desc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 18,
+      "symbol": "ETStream.imageURL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 19,
+      "symbol": "ETStream.siteURL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 20,
+      "symbol": "ETStream.type",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 21,
+      "symbol": "ETStream.like",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 22,
+      "symbol": "ETStream.genres",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETStream.h",
+      "line": 23,
+      "symbol": "ETStream.city",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETUser.h",
+      "line": 12,
+      "symbol": "ETUser",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETUser.h",
+      "line": 14,
+      "symbol": "ETUser.userId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETUser.h",
+      "line": 15,
+      "symbol": "ETUser.apiKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETUser.h",
+      "line": 16,
+      "symbol": "ETUser.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETUser.h",
+      "line": 17,
+      "symbol": "ETUser.phone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/balaganov/Projects/iOS/EchotagSDK/EchotagSDK/ETUser.h",
+      "line": 18,
+      "symbol": "ETUser.isGuest",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "EchotagSDK/ETAPIManager.h",
+      "line": 78,
+      "symbol": "ETAPIManager.+setUserInfo:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "EchotagSDK/ETResource.h",
+      "line": 11,
+      "symbol": "ETResource",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/balaganov/Projects/iOS/EchotagSDK"
+}

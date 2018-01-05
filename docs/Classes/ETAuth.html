@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ETAuth Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/ETAuth" class="dashAnchor"></a>
+
+    <a title="ETAuth Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          EchotagSDK Docs
+        </a>
+         (51% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">EchotagSDK Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      ETAuth Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETACRCloudManager.html">ETACRCloudManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETAPIManager.html">ETAPIManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETAuth.html">ETAuth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETCategories.html">ETCategories</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETCategory.html">ETCategory</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETCities.html">ETCities</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETCity.html">ETCity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETEchotag.html">ETEchotag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETEchotags.html">ETEchotags</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETGenre.html">ETGenre</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETGenres.html">ETGenres</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETItem.html">ETItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETMusic.html">ETMusic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETMusics.html">ETMusics</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)ETResource">ETResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETStream.html">ETStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETStreams.html">ETStreams</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ETUser.html">ETUser</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@ETAPIErrorDomain">ETAPIErrorDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TYPE_AD">TYPE_AD</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TYPE_JINGLE">TYPE_JINGLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TYPE_QUIZ">TYPE_QUIZ</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@TYPE_SURVEY">TYPE_SURVEY</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ETAPIErrorCode.html">ETAPIErrorCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Type Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETACRCloudManager.h@T@ETACRCloudCompletionBlock">ETACRCloudCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthByEmailCompletionBlock">ETAuthByEmailCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthByProviderCompletionBlock">ETAuthByProviderCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthResultCompletionBlock">ETAuthResultCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETCategories.h@T@ETCategoriesCompletionBlock">ETCategoriesCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETCities.h@T@ETCitiesCompletionBlock">ETCitiesCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETGenres.h@T@ETGenresCompletionBlock">ETGenresCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETMusics.h@T@ETMusicsCompletionBlock">ETMusicsCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETEchotags.h@T@ETOffersCompletionBlock">ETOffersCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETEchotags.h@T@ETReportCompletionBlock">ETReportCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETEchotags.h@T@ETResolveCompletionBlock">ETResolveCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETResource.h@T@ETResultCompletionBlock">ETResultCompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type Definitions.html#/c:ETStreams.h@T@ETStreamsCompletionBlock">ETStreamsCompletionBlock</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>ETAuth</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code>
+<span class="k">@interface</span> <span class="nc">ETAuth</span> <span class="p">:</span> <span class="nc"><a href="../Classes.html#/c:objc(cs)ETResource">ETResource</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>The Auth class.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ETAuth(im)registrationWithLogin:andPassword:andCompany:queue:completionBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-registrationWithLogin:andPassword:andCompany:queue:completionBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ETAuth(im)registrationWithLogin:andPassword:andCompany:queue:completionBlock:">-registrationWithLogin:andPassword:andCompany:queue:completionBlock:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>User registration using email and password.
+ After succesful registration the server will send a confirmation email to the user. The email must be confirmed, otherwise an error is returned.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registrationWithLogin</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">login</span>
+                  <span class="nf">andPassword</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">password</span>
+                   <span class="nf">andCompany</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">company</span>
+                        <span class="nf">queue</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSOperationQueue</span> <span class="o">*</span><span class="p">)</span><span class="nv">queue</span>
+              <span class="nf">completionBlock</span><span class="p">:</span>
+                  <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthResultCompletionBlock">ETAuthResultCompletionBlock</a></span><span class="p">)</span><span class="nv">completionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">registration</span><span class="p">(</span><span class="n">withLogin</span> <span class="nv">login</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">andPassword</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">andCompany</span> <span class="nv">company</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">OperationQueue</span><span class="p">?,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">AuthResultCompletionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>login</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User email.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User password.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>company</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User company. Could be blank - in which case a default user is assumed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue that the completion block will be executed on. Defaults to the current queue.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Completion block to be executed when the request is completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ETAuth(im)registrationConnectWithEmail:andRegistrationToken:queue:completionBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-registrationConnectWithEmail:andRegistrationToken:queue:completionBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ETAuth(im)registrationConnectWithEmail:andRegistrationToken:queue:completionBlock:">-registrationConnectWithEmail:andRegistrationToken:queue:completionBlock:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Assocciating an email with an account.
+If we are unbable to get user&rsquo;s email from the social network, the server generates a tokey and returns it with the registration via social network responce
+This method sends user&rsquo;s email along with the token.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registrationConnectWithEmail</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">email</span>
+                <span class="nf">andRegistrationToken</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">registrationToken</span>
+                               <span class="nf">queue</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSOperationQueue</span> <span class="o">*</span><span class="p">)</span><span class="nv">queue</span>
+                     <span class="nf">completionBlock</span><span class="p">:</span>
+                         <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthResultCompletionBlock">ETAuthResultCompletionBlock</a></span><span class="p">)</span><span class="nv">completionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">registrationConnect</span><span class="p">(</span><span class="n">withEmail</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">andRegistrationToken</span> <span class="nv">registrationToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">OperationQueue</span><span class="p">?,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">AuthResultCompletionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>email</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User email.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>registrationToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>- registration token.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue that the completion block will be executed on. Defaults to the current queue.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Completion block to be executed when the request is completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ETAuth(im)forgotPasswordWithEmail:queue:completionBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-forgotPasswordWithEmail:queue:completionBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ETAuth(im)forgotPasswordWithEmail:queue:completionBlock:">-forgotPasswordWithEmail:queue:completionBlock:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Password reset. A link is sent to a given email with instructions to set a new password.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">forgotPasswordWithEmail</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">email</span>
+                          <span class="nf">queue</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSOperationQueue</span> <span class="o">*</span><span class="p">)</span><span class="nv">queue</span>
+                <span class="nf">completionBlock</span><span class="p">:</span>
+                    <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthResultCompletionBlock">ETAuthResultCompletionBlock</a></span><span class="p">)</span><span class="nv">completionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">forgotPassword</span><span class="p">(</span><span class="n">withEmail</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">OperationQueue</span><span class="p">?,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">AuthResultCompletionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>email</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User email.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue that the completion block will be executed on. Defaults to the current queue.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Completion block to be executed when the request is completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ETAuth(im)checkCompany:queue:completionBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-checkCompany:queue:completionBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ETAuth(im)checkCompany:queue:completionBlock:">-checkCompany:queue:completionBlock:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check company existance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">checkCompany</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">company</span>
+               <span class="nf">queue</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSOperationQueue</span> <span class="o">*</span><span class="p">)</span><span class="nv">queue</span>
+     <span class="nf">completionBlock</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthResultCompletionBlock">ETAuthResultCompletionBlock</a></span><span class="p">)</span><span class="nv">completionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">checkCompany</span><span class="p">(</span><span class="n">_</span> <span class="nv">company</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">OperationQueue</span><span class="p">?,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">AuthResultCompletionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>company</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Company name.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue that the completion block will be executed on. Defaults to the current queue.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Completion block to be executed when the request is completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ETAuth(im)registrationConfirmWithUser:andRegistrationToken:queue:completionBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-registrationConfirmWithUser:andRegistrationToken:queue:completionBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ETAuth(im)registrationConfirmWithUser:andRegistrationToken:queue:completionBlock:">-registrationConfirmWithUser:andRegistrationToken:queue:completionBlock:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Cofirmation of a registration.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registrationConfirmWithUser</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">userId</span>
+               <span class="nf">andRegistrationToken</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">registrationToken</span>
+                              <span class="nf">queue</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSOperationQueue</span> <span class="o">*</span><span class="p">)</span><span class="nv">queue</span>
+                    <span class="nf">completionBlock</span><span class="p">:</span>
+                        <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthResultCompletionBlock">ETAuthResultCompletionBlock</a></span><span class="p">)</span><span class="nv">completionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">registrationConfirm</span><span class="p">(</span><span class="n">withUser</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">andRegistrationToken</span> <span class="nv">registrationToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">OperationQueue</span><span class="p">?,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">AuthResultCompletionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User identificator.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>registrationToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Registration token.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue that the completion block will be executed on. Defaults to the current queue.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Completion block to be executed when the request is completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ETAuth(im)byEmailWithLogin:andPassword:queue:completionBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-byEmailWithLogin:andPassword:queue:completionBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ETAuth(im)byEmailWithLogin:andPassword:queue:completionBlock:">-byEmailWithLogin:andPassword:queue:completionBlock:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>User authentication with email and password. With successful authentication the method returns user data contained in the object ETUser, otherwise returns error.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">byEmailWithLogin</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">login</span>
+             <span class="nf">andPassword</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">password</span>
+                   <span class="nf">queue</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSOperationQueue</span> <span class="o">*</span><span class="p">)</span><span class="nv">queue</span>
+         <span class="nf">completionBlock</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthByEmailCompletionBlock">ETAuthByEmailCompletionBlock</a></span><span class="p">)</span><span class="nv">completionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">byEmail</span><span class="p">(</span><span class="n">withLogin</span> <span class="nv">login</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">andPassword</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">OperationQueue</span><span class="p">?,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">AuthByEmailCompletionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>login</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User email.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User password.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue that the completion block will be executed on. Defaults to the current queue.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Completion block to be executed when the request is completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ETAuth(im)byProviderWithToken:andProvider:andEmail:andCompany:queue:completionBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-byProviderWithToken:andProvider:andEmail:andCompany:queue:completionBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ETAuth(im)byProviderWithToken:andProvider:andEmail:andCompany:queue:completionBlock:">-byProviderWithToken:andProvider:andEmail:andCompany:queue:completionBlock:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>User authentication with email and password. With successful authentication the method returns user data contained in the object ETUser, otherwise returns error.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">byProviderWithToken</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">token</span>
+                <span class="nf">andProvider</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">provider</span>
+                   <span class="nf">andEmail</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">email</span>
+                 <span class="nf">andCompany</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">company</span>
+                      <span class="nf">queue</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSOperationQueue</span> <span class="o">*</span><span class="p">)</span><span class="nv">queue</span>
+            <span class="nf">completionBlock</span><span class="p">:</span>
+                <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Type Definitions.html#/c:ETAuth.h@T@ETAuthByProviderCompletionBlock">ETAuthByProviderCompletionBlock</a></span><span class="p">)</span><span class="nv">completionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">byProvider</span><span class="p">(</span><span class="n">withToken</span> <span class="nv">token</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">andProvider</span> <span class="nv">provider</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">andEmail</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">andCompany</span> <span class="nv">company</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">OperationQueue</span><span class="p">?,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">AuthByProviderCompletionBlock</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>token</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Тoken returned by social network.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>provider</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Social network name, for example, Facebook).</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>email</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User email. Could be blank, in whick case the server will attempted to get email from the social network.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>company</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User company. Could be blank, in which case the default company name is used.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue that the completion block will be executed on. Defaults to the current queue.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Completion block to be executed when the request is completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://echotag.net" target="_blank" rel="external">Echotag</a>. All rights reserved. (Last updated: 2017-12-10)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
