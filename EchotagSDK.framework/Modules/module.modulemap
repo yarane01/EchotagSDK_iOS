@@ -1,0 +1,6 @@
+framework module EchotagSDK {
+  umbrella header "EchotagSDK.h"
+
+  export *
+  module * { export * }
+}
